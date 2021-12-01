@@ -1,12 +1,12 @@
 #include "lib.h"
-bool verifica(char a){
+bool primo(char a){
     if((a>=65 && a<=90) || (a>=97 && a<=122)){
         return true;
     }else{
         return false;
     }
 }
-char convert(char a){
+char trasformazione(char a){
     if(a>=65 && a<=90){
         a=a+32;
         return a;
