@@ -4,12 +4,10 @@ using namespace std;
 int main(){
   char a;
   cin>>a;
-  int ris=verifica(a);
-  
-  if(ris){
-    cout<<convert(a)<<endl;
+  bool risultato=primo(a);
+  if(risultato){
+    cout<<trasformazione(a);
   }else{
-    cout<<"errore";
+    cout<<"errore"<<endl;
   }
-  return 0;
 }
