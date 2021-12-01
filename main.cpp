@@ -6,7 +6,7 @@ int main(){
   cin>>a;
   bool risultato=primo(a);
   if(risultato){
-    cout<<trasformazione(a);
+    cout<<trasformazione(a)<<endl;
   }else{
     cout<<"errore"<<endl;
   }
